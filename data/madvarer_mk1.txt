@@ -1,0 +1,272 @@
+rugbrod
+hvedebrod
+fuldkornsbrod
+knakbrod
+toastbrod
+croissanter
+smor
+margarine
+olie
+olivenolie
+rapsolie
+kokosolie
+ag
+honseag
+pasteuriserede aggeblommer
+pasteuriserede aggehvider
+flode
+piskeflode
+madlavningsflode
+kaffeflode
+skummetmalk
+minimalk
+letmalk
+sodmalk
+syrnet malk
+kefir
+yoghurt naturel
+grask yoghurt
+skyr
+cremefraiche
+hytteost
+cottage cheese
+mascarpone
+flodeost
+ost
+skareost
+gouda
+emmentaler
+brie
+camembert
+fetaost
+mozzarella
+parmesan
+cheddar
+hvidlogsost
+smelteost
+spegepolse
+salami
+kogt skinke
+rullepolse
+leverpostej
+fiskepalag
+makrel i tomat
+tun pa dase
+sardiner
+sild
+roget laks
+fersk fisk
+fiskefileter
+torsk
+laks
+rodspattefilet
+rejer
+oksekod
+hakket oksekod
+boffer
+kalvekod
+svinekod
+hakket svinekod
+bacon
+flask
+koteletter
+polser
+kylling
+kyllingebryst
+kyllingelar
+andebryst
+kalkunbryst
+lam
+lammekolle
+lammekoteletter
+kartofler
+sode kartofler
+gulerodder
+log
+hvidlog
+porre
+rodbeder
+spinat
+gronkal
+iceberg salat
+hjertesalat
+rucola
+tomater
+cherrytomater
+agurker
+peberfrugter
+squash
+aubergine
+broccoli
+blomkal
+bonnespirer
+gronne bonner
+asparges
+majs
+champignon
+shiitake
+ostershatte
+friske krydderurter
+persille
+dild
+basilikum
+timian
+rosmarin
+oregano
+koriander
+mynte
+chili
+mel
+hvedemel
+fuldkornsmel
+rugmel
+majsmel
+kikartemel
+gar
+torgar
+bagestabil sukker
+flormelis
+vaniljesukker
+kakao
+bagepulver
+natron
+kokosmel
+hasselnodder
+mandler
+valnodder
+jordnodder
+pistacienodder
+cashewnodder
+rosiner
+torrede tranebar
+torrede abrikoser
+svesker
+figner
+dadler
+abler
+parer
+bananer
+appelsiner
+clementiner
+vindruer
+kiwi
+mango
+papaya
+passionsfrugt
+ananas
+meloner
+jordbar
+hindbar
+blabar
+brombar
+ribs
+stikkelsbar
+kirsebar
+granatable
+citroner
+lime
+avocado
+ris
+basmatiris
+jasminris
+grodris
+brune ris
+sorte ris
+pasta
+spaghetti
+fettuccine
+penne
+fusilli
+lasagneplader
+kartoffelmospulver
+pommes frites
+kartoffelbade
+frosne grontsager
+frosne arter
+frosne spinatblokke
+frosne bar
+frossen pizza
+fardigretter
+lasagne
+chili con carne
+fiskefrikadeller
+mayonnaise
+remoulade
+ketchup
+senep
+soya
+sukker
+brun farin
+honning
+ahornsirup
+peanutbutter
+te
+kaffe
+espressobonner
+filterkaffe
+kakaopulver
+juice
+ablejuice
+appelsinjuice
+smoothies
+sodavand
+mineralvand
+rodvin
+hvidvin
+ol
+cider
+spiritus
+snaps
+chokolade
+mork chokolade
+malkechokolade
+hvid chokolade
+lakridser
+bolcher
+tyggegummi
+chips
+popcorn
+riskager
+kiks
+marie kiks
+digestive
+is
+flodeis
+sorbet
+isvafler
+frysepinde
+havregryn
+cornflakes
+mysli
+fiberhavregryn
+hirseflager
+linser
+rode linser
+gronne linser
+kikarter
+bonner
+kidneybonner
+butterbeans
+hvide bonner
+sortojebonner
+konserves
+tomatpure
+hakkede tomater
+majs pa dase
+ananas pa dase
+suppe
+tomatsuppe
+graskarsuppe
+kyllingesuppe
+oksekodssuppe
+palagssalat
+tunmousse
+skinkesalat
+aggesalat
+rejesalat
+pepsimax
+pepsi
+italiensksalat
+hamburgerryg
+detgodesolsikkerugbrod
+rodpeper
