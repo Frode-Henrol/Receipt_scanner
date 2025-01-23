@@ -1,5 +1,6 @@
 # Goal: rank inputstring compared to a database of items. For example. Input: pepsimax Database: pepsi max, cola, cheese, bread. Then it will rank what i most likely is closest to.
 from fuzzywuzzy import fuzz
+import os
 
 #-------------------------------------------
 #-
@@ -14,7 +15,7 @@ def load_database_to_list(file_path: str) -> list[str]:
 #-------------------------------------------
 #-
 #-------------------------------------------
-def check_words(database: list[str], target: str) -> list[str]:
+def check_words(database: list[str], target: str) -> list[tuple]:
     """Ranks database content based on target word"""
     target: str = target.lower()
     word_and_score: list[tuple] = []

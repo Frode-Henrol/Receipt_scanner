@@ -65,6 +65,8 @@ def text_filter1(input_text: str) -> str:
     # Go through each line of the string read from the image
     for line in input_text.split("\n"):
         
+        invalid_price_flag: bool = False
+        
         # If line is empty skip
         if not line:
             continue
@@ -86,6 +88,18 @@ def text_filter1(input_text: str) -> str:
             name: str = " ".join(name_and_price)
             name_and_price[0] = name
             name_and_price[1] = price
+        
+        # This secures that the price dosent contain chars beside comma. Like if price was: "2U,25" i will detect that U is not a digit and not add it to the returned products
+        
+        # If further evidence can show that zero 0, often is mistaken for "o" or "u" then we could instead of not adding the price, just replace the chars with zero ------------------------------------------!POTENTIAL IMPROVMENT!
+        for number in name_and_price[1]:
+            if (number == ","):
+                continue
+            if not (number.isdigit()):
+                invalid_price_flag = True
+        
+        if invalid_price_flag:
+            continue
         
         filtered_products.append((name_and_price[0],name_and_price[1]))
         
