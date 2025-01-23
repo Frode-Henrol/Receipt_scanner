@@ -1,2 +1,3 @@
 # .gitignore
-images/
+images/picture*
+proccessed_images/picture*
