@@ -22,6 +22,9 @@ def main():
     image_folder_path: str = os.path.join(os.getcwd(),"images")
     file_count: int = len([f for f in os.listdir(image_folder_path) if os.path.isfile(os.path.join(image_folder_path, f))])
     
+    if (file_count == 0):
+        print("No images found in folder")
+    
     for picture_number in range(1,file_count+1):
         
         # Choose image from 1 to x
@@ -35,7 +38,7 @@ def main():
         product_tolerence_list: list[tuple] = []
         
         # Increases tolerence from 50 to 200 with 10 in spacing
-        for tolerance in range(50,200,10):
+        for tolerance in range(50,150,10):
             print(f"Picture: {image_name} ------------------------- {tolerance}")
             # Initialize at 0. If error in 
             edit_average: int = 0
@@ -62,13 +65,12 @@ def main():
         database_bought_products: DatabaseManager = DatabaseManager(database_file_path)
         
         # Goes over each product and adds them to the database
+        print("\nProduct estimated to be on the reciept:")
         for product in data_products:
-            print(f"{product[0]} has price: {product[1]/float(100)} kr")
+            print(f"{product[0]:<30} Price: {product[1]/float(100)} kr")
             database_bought_products.add_or_update_item(product[0], product[1]/100)
         
         database_bought_products.close()
-        
-
 #-------------------------------------------
 #-
 #-------------------------------------------
@@ -93,7 +95,7 @@ def match_products_with_database(products_list: list[tuple], blacklist_threshhol
 
         # If word is over threshold and deemed a blacklisted word then skip
         if (black_list_score[0][1] > blacklist_threshhold):
-            print(f"Product: {product}        BLACKLISTED")
+            print(f"Product: {str(product):<40}BLACKLISTED")
             continue
     
         # Load product/food database
@@ -101,7 +103,7 @@ def match_products_with_database(products_list: list[tuple], blacklist_threshhol
 
         # Return a list of words and a edit score for the match
         database_list_score: list[tuple] = match_words.check_words(database, target_product)
-        print(f"Product: {product}        Likely matches: 1: ('{database_list_score[0][0]}') 2: ('{database_list_score[1][0]}') 3: ('{database_list_score[2][0]}')")
+        print(f"Product: {str(product):<40}Likely matches: 1: ('{database_list_score[0][0]}') 2: ('{database_list_score[1][0]}') 3: ('{database_list_score[2][0]}')")
 
         product_name: str = database_list_score[0][0]
         temp_price_list: list[str] = product[1].split(",")
